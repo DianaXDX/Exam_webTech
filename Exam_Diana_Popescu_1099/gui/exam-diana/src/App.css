@@ -1,0 +1,103 @@
+.App {
+  padding-bottom: 66px;
+  padding-top: 46px;
+  text-align: center;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5),
+    -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+    0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.home {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  margin-left: 30px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+}
+
+.preview-jobPosting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 200px;
+  border-bottom: 2px solid #f2f2f2;
+  align-items: center;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.preview-jobPosting:hover {
+  background-color: #f2f2f2;
+}
+.preview-jobPosting h2 {
+  font-size: 40px;
+  color: #0eceae96;
+  margin-top: 0px;
+}
+
+.preview-jobPosting .textHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.preview-jobPosting .buttonHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.preview-jobPosting .buttonHolder button {
+  margin: 10px;
+}
